@@ -22,4 +22,4 @@ jobs:
         with:
           #bootstrap: vendor/autoload.php
           configuration: phpunit.xml.dist
-          args: --coverage-text
+          args: --coverage-clover
