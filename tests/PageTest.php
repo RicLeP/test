@@ -24,7 +24,7 @@ class PageTest extends TestCase
 	{
 		$page = $this->makePage();
 
-		$this->assertEquals('2020tdgrdrsgbds-07-06 10:24:21', $page->publishedAt()->toDateTimeString());
+		$this->assertEquals('2020-07-06 10:24:21', $page->publishedAt()->toDateTimeString());
 	}
 
 	/** @test */

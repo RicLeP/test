@@ -19,14 +19,11 @@ use Riclep\Storyblok\Traits\HasSettings;
 use Storyblok\ApiException;
 
 
-
 class Block implements \IteratorAggregate, \JsonSerializable
 {
 	use HasChildClasses;
 	use HasMeta;
 	use HasSettings;
-
-	public $fdfsd = 'sdfsd';
 
 	/**
 	 * @var bool resolve UUID relations automatically
