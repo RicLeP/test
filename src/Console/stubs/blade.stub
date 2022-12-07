@@ -1,0 +1,11 @@
+<?php
+/* @var $block \#CLASS# */
+
+// ddd($block);
+?>
+
+
+{!! $block->editorLink() !!}
+<div class="#NAME#">
+#BODY#
+</div>

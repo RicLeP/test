@@ -1,0 +1,9 @@
+build
+composer.lock
+docs
+vendor
+coverage
+.phpunit.result.cache
+build/
+/.idea
+/.idea/codestream.xml
